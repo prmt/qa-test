@@ -35,6 +35,24 @@ public class JenkinsTest {
       Assert.fail();
 	}
 
+    @Test
+	public void testcommit11() {
+	 System.out.println("test commit11 executed");
+      Assert.fail();
+	}
+
+    @Test
+	public void testcommit13() {
+	 System.out.println("test commit13 executed");
+      Assert.fail();
+	}
+
+    @Test
+	public void testcommit12() {
+	 System.out.println("test commit12 executed");
+      Assert.fail();
+	}
+
 	@Test
 	public void test2() {
 	 System.out.println("test 2 executed");	
