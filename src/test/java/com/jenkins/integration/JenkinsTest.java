@@ -18,6 +18,12 @@ public class JenkinsTest {
 	}
 
     @Test
+	public void testdevupdate() {
+	 System.out.println("test devupdate executed");
+      Assert.fail();
+	}
+
+    @Test
 	public void testcommit1() {
 	 System.out.println("test commit1 executed");
       Assert.fail();
