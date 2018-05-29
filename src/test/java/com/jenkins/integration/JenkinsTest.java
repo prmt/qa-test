@@ -10,7 +10,13 @@ public class JenkinsTest {
 	 System.out.println("test 1 executed");	
       Assert.fail();
 	}
-	
+
+	@Test
+	public void testdev() {
+	 System.out.println("test dev executed");
+      Assert.fail();
+	}
+
 	@Test
 	public void test2() {
 	 System.out.println("test 2 executed");	
